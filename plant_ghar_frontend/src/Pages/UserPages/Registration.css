@@ -1,0 +1,76 @@
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.header1registration {
+    text-align: center;
+    color: red;
+    text-decoration: #4caf50;
+    width: 100%;
+}
+
+.headerregistration {
+    text-align: center;
+    color: #333;
+}
+
+.registrationform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.registrationlabel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ancher{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.ancher2{
+    text-decoration: none;
+    color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
+
+.registrationinput {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.buttons {
+    background-color: #12372A;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    background-color: #FBFADA;
+    color: black;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .maindiv {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
